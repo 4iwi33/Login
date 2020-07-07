@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="">
+    <form action="?">
         <input type="text"><br>
         <input type="text" name="" id=""><br>
         <input type="button" value="ok">
