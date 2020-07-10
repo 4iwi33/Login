@@ -1,3 +1,12 @@
+<?php
+use Core\Calc;
+include '../vendor/autoload.php';
+
+$class = new Calc($_POST['a'], $_POST['b']);
+
+echo $class->{$_POST['op']}();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +18,7 @@
 
 <body>
     <h1>Calc</h1>
-    <form method="POST" action="object.php">
+    <form method="POST" action="?">
         <input type="text" name="a"><br>
         <select name="op">
             <option value="div">/</option>

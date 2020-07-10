@@ -7,10 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInit3a142851b1f7d6e3802cbc4bcdd41f51
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
-        array (
-            'TexLab\\MyDB\\' => 12,
-        ),
         'C' => 
         array (
             'Core\\' => 5,
@@ -18,10 +14,6 @@ class ComposerStaticInit3a142851b1f7d6e3802cbc4bcdd41f51
     );
 
     public static $prefixDirsPsr4 = array (
-        'TexLab\\MyDB\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/texlab/mydb/src',
-        ),
         'Core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Core',

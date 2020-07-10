@@ -1,6 +1,6 @@
 <?php
 
-namespace Calculator;
+namespace Core;
 
 class Calc
 {
